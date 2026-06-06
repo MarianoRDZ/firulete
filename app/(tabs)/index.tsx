@@ -2,8 +2,8 @@ import { View, Text } from 'react-native';
 
 export default function HomeScreen() {
   return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>Mapa Principal</Text>
+    <View className="flex-1 items-center justify-center bg-white">
+      <Text className="text-2xl font-bold text-primary">🐾 Firulete</Text>
     </View>
   );
 }
