@@ -1,9 +1,9 @@
 {
   "expo": {
-    "name": "Firulete",
-    "slug": "firulete",
+    "name": "Huellas",
+    "slug": "huellas",
     "version": "1.0.0",
-    "scheme": "firulete",
+    "scheme": "huellas",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",

@@ -6,7 +6,7 @@ import { supabase } from './supabase';
 
 WebBrowser.maybeCompleteAuthSession();
 
-const redirectTo = makeRedirectUri({ scheme: 'firulete', path: 'auth/callback' });
+const redirectTo = makeRedirectUri({ scheme: 'huellas', path: 'auth/callback' });
 
 export async function signInWithGoogle() {
   const { data, error } = await supabase.auth.signInWithOAuth({
